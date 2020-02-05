@@ -1,0 +1,166 @@
+//-----------------------------------------//
+/* Reuse Style */
+//----------------------------------------//
+.cld, .cld:hover
+	text-decoration: none
+	color: #fff
+.btn-sm, .btn-lg
+	background: #c7657b
+	color: #fff
+	padding: 5px 20px
+	border-radius: 5px
+	border: 0
+	display: inline-block
+	&:hover
+		background-color: rgb(150, 50,80)
+.dark-section
+	background: #eee
+.btn-lg
+	font-size: 1.2rem
+.animate-in
+	animation-name: animate-in
+	animation-duration: 1s
+@keyframes animate-in
+	from
+		transform: scale(0.5, 0.5)
+	to
+		transform: scale(1, 1)
+//-----------------------------------------//
+/* Header Section */
+//----------------------------------------//
+.header
+	height: 600px
+	background-image: url("../img/hero.jpg")
+	background-size: cover
+	background-attachment: fixed
+	color: #fff
+	position: relative
+	span
+		color: pink
+	.logo
+		width: 40px
+		float: left
+	button
+		color: #fff
+	.btn
+		text-align: right
+		.btn-sm:last-child
+			margin-left: 10px
+	.lang
+		background: rgba(0,0,0,0.7)
+		position: relative
+		i:first-child
+			margin-right: 5px
+		&:hover
+			.lang-list
+				display: block
+		.lang-list
+			display: none
+			list-style: none
+			position: absolute
+			background: rgba(255,255,255,0.8)
+			text-align: left
+			top: 100%
+			left: 0
+			width: 140px
+			padding: 0
+			z-index: 10
+			li
+				padding: 5px 10px
+				&:hover
+					background: rgba(255,255,255,0.9)
+			a 
+				color: #000
+	.hero-intro
+		text-align: center
+		margin-top: 130px
+	.footer-of-header
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		text-align: center
+		background: rgba(0,0,0,0.5)
+		.pink-dot
+			display: inline-block
+			border-radius: 100%
+			background: #c7657b
+			width: 15px
+			height: 15px
+			position: relative
+			top: 2px
+			margin-right: 10px
+		p
+			margin-bottom: 0
+//-----------------------------------------//
+/* Testimonial Section */
+//----------------------------------------//
+.testimonial
+	text-align: center
+	img
+		border-radius: 50%
+		margin: 0 auto
+		display: block
+		margin-bottom: 10px
+//-----------------------------------------//
+/* Process Section */
+//----------------------------------------//
+.process
+	text-align: center
+	img
+		display: block
+		margin: 0 auto
+		height: 100px
+		margin-bottom: 20px
+//-----------------------------------------//
+/* Mobile App Section */
+//----------------------------------------//
+.mobile-app
+	padding-top: 30px
+	padding-bottom: 30px
+	background: linear-gradient(90deg,#c7657b 40%,rgba(199,101,123,.8)),url("../img/mobile-bg.jpg") no-repeat bottom
+	.google-button
+		width: 200px
+		margin-left: -15px
+//-----------------------------------------//
+/* Translate Section */
+//----------------------------------------//
+.translate
+	background: #565656
+	p, a 
+		color: #fff
+	a:hover
+		color: blue
+//-----------------------------------------//
+/* Footer Section */
+//----------------------------------------//
+.footer
+	a 
+		color: #737778
+	.fab
+		font-size: 35px
+	.social-media
+		position: relative
+		.icon
+			position: absolute
+			width: 250px
+	.fa-facebook
+		color: #3b5998
+	.fa-twitter
+		color: #55acee
+	.fa-google-plus
+		color: #dc4e41
+	.fa-youtube
+		color: #b31217
+	.fa-pinterest
+		color: #bd081c
+//-----------------------------------------//
+/* Copyright Section */
+//----------------------------------------//
+.copyright
+	background: #565656
+	p
+		margin-bottom: 0
+		color: #fff
+		font-size: 0.8rem
+		text-align: center
